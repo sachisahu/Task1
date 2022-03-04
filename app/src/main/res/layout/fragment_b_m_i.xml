@@ -20,25 +20,29 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp"
                 android:padding="10sp"
+                android:background="@drawable/edit_textbox_corner"
                 android:textSize="20sp"
-                android:textColor="@color/white"
-                android:hint="Enter Weight"/>
+                android:textColor="@color/editboxText"
+                android:hint="Enter Weight(in KG)"/>
             <EditText
                 android:id="@+id/txtHeight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp"
+                android:background="@drawable/edit_textbox_corner"
                 android:textSize="20sp"
-                android:textColor="@color/white"
+                android:textColor="@color/editboxText"
                 android:padding="10sp"
-                android:hint="Enter Height"/>
+                android:hint="Enter Height (in Meter)"/>
             <Button
                 android:id="@+id/btnSubmit"
-                android:layout_width="match_parent"
+                android:layout_width="250sp"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_margin="10sp"
                 android:padding="10sp"
-                android:textColor="@color/white"
+                android:background="@drawable/edit_textbox_corner"
+                android:textColor="@color/black"
                 android:hint="Calculate"/>
 
         </LinearLayout>

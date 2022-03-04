@@ -51,7 +51,15 @@ public class BMIFragment extends Fragment implements IBMIView {
 
     @Override
     public void calcBmi(float bmi) {
-        calcBtn.setText(bmi+"");
-        Toast.makeText(getActivity(), bmi+"", Toast.LENGTH_SHORT).show();
+            calcBtn.setText(bmi+"");
+            Toast.makeText(getActivity(), bmi+"", Toast.LENGTH_SHORT).show();
+
+
+    }
+
+    @Override
+    public void validData(String validData) {
+        Toast.makeText(getActivity(), validData+"", Toast.LENGTH_SHORT).show();
+
     }
 }
